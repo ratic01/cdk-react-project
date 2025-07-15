@@ -1,6 +1,6 @@
 # Serverless Message App
 
-This is a serverless message handling application built with React on the frontend and AWS services (CDK, Lambda, SQS, DynamoDB, AWS CloudWatch, S3) on the backend.
+This is a serverless message handling application built with React on the frontend and AWS services (CDK, Lambda, SQS, DynamoDB, S3...) on the backend.
 
 ## Technologies
 
