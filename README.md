@@ -47,6 +47,10 @@ This project uses a serverless architecture with:
   
 ## Roadmap
 
+- Implementation of file upload functionality allowing users to upload files directly from their computers
+- Integration with AWS SNS service for sending notifications about new messages or events
+- Other services
+
 
 
 
