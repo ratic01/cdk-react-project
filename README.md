@@ -11,6 +11,7 @@ This is a serverless message handling application built with React on the fronte
 - AWS DynamoDB
 - AWS S3
 - AWS API Gateway
+- AWS CloudWatch
 
 ## Setup and Run
 
