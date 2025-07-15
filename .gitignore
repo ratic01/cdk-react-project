@@ -1,0 +1,16 @@
+# Node modules za frontend i backend
+/frontend/node_modules
+/backend/node_modules
+
+# Build output frontend
+/frontend/build
+
+# AWS CDK synth output (ako bude)
+/backend/cdk.out
+
+# Local env variables
+*.env
+
+# VSCode & system files
+.vscode/
+.DS_Store
