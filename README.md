@@ -29,5 +29,26 @@ npm start
 cd backend
 cdk deploy
 
+## Usage
+
+- Submit messages via the React form on the frontend.
+- Messages are sent to an SQS queue and processed asynchronously.
+- Processed messages are stored as .txt files in S3 and metadata in DynamoDB.
+
+
+## Architecture
+
+This project uses a serverless architecture with:
+
+- Frontend React app submitting messages.
+- Lambda function sending messages to SQS.
+- Lambda function triggered by SQS to create .txt files and upload them to S3.
+- DynamoDB for storing message metadata.
+  
+## Roadmap
+
+
+
+
 
    
