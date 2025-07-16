@@ -16,6 +16,9 @@ const MessageForm: React.FC = () => {
         name,
         message
       });
+      
+      setName('');
+      setMessage('');
       setStatus('Poruka uspešno poslata!');
     } catch (error) {
       console.error(error);
